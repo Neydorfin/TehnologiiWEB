@@ -6,12 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ef293690-1cbc-4014-b9e5-efdc792697c1" name="Changes" comment="changed">
       <change afterPath="$PROJECT_DIR$/CSS/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/country.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/culture.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Member_States_of_the_European_Union.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/culture.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/culture.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/map.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +75,7 @@
       <updated>1643274495223</updated>
       <workItem from="1643274496399" duration="954000" />
       <workItem from="1643874835484" duration="4581000" />
-      <workItem from="1644056130231" duration="12124000" />
+      <workItem from="1644056130231" duration="18793000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1643274847590</created>
@@ -136,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644056278998</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="changed">
+      <created>1644070091610</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1644070091610</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
