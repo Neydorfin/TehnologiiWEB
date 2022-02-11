@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef293690-1cbc-4014-b9e5-efdc792697c1" name="Changes" comment="changed" />
+    <list default="true" id="ef293690-1cbc-4014-b9e5-efdc792697c1" name="Changes" comment="changed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,11 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
         <entry key="$PROJECT_DIR$" value="lab1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="17576c59-78cb-498e-8e28-811317e856a4" />
+        <option name="url" value="https://github.com/Neydorfin/TehnologiiWEB.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -73,7 +83,8 @@
       <workItem from="1643874835484" duration="4581000" />
       <workItem from="1644056130231" duration="18898000" />
       <workItem from="1644480301447" duration="1653000" />
-      <workItem from="1644608431934" duration="2258000" />
+      <workItem from="1644608431934" duration="2764000" />
+      <workItem from="1644611833044" duration="1706000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1643274847590</created>
@@ -166,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644611087371</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="changed">
+      <created>1644611422265</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1644611422265</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
