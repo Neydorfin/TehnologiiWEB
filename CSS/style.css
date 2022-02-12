@@ -9,6 +9,15 @@ html{
     width: 100%;
 }
 
+body{
+    background-color: #404040;
+}
+
+hr{
+    margin-bottom: 1%
+}
+
+/*Header*/
 header{
     width: 100%;
     background-color: #131313;
@@ -32,6 +41,7 @@ header{
 
 }
 
+/*Navigator*/
 .nav_link{
     font-size: 20px;
     display: inline-block;
@@ -44,4 +54,59 @@ header{
 .nav_link:hover{
     color: #ffffff;
 
+}
+
+/*Main content*/
+.back_canvas{
+    margin: 0 10%;
+    display: flex;
+    background-color: #242424;
+    color: #c4c4c4;
+}
+
+.left_canvas{
+    max-width: 23%;
+    float: left;
+    margin: 2% 1%;
+}
+
+.left_canvas_img{
+    max-width: 100%;
+
+}
+
+.center_canvas{
+    max-width: 48%;
+    margin: 2% 1%;
+
+}
+
+.right_canvas{
+    max-width: 23%;
+    float: right;
+    margin: 2% 1%;
+
+}
+
+.right_canvas_list{
+    text-align: left;
+    list-style: none;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 10%;
+    font-size: 1.2em;
+}
+
+.right_canvas_img{
+    max-width: 96%;
+    margin: 2%;
+}
+
+.right_canvas_img:hover{
+    box-shadow: 0 0 10px #c4c4c4;
+}
+
+.h1_center{
+    text-align: center;
+    margin-top: 5%;
 }
