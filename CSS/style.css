@@ -23,7 +23,7 @@ header{
     background-color: #131313;
     display: flex;
     justify-content: space-between;
-    font-family: "Arial";
+    font-family: 'Arial', sans-serif;
 }
 
 .header_logo_text{
@@ -75,10 +75,38 @@ header{
 
 }
 
+.left_canvas_link{
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #c4c4c4;
+}
+
+.left_canvas_link:hover {
+    text-decoration-line: underline;
+    color: #ffffff;
+
+}
+
 .center_canvas{
     max-width: 48%;
     margin: 2% 1%;
 
+}
+
+.content{
+    font-size: 20px;
+    display: inline-block;
+    align-content: flex-end;
+}
+
+.content_img{
+    width: 45%;
+    float: right;
+}
+
+.img_description{
+    text-align: center;
 }
 
 .right_canvas{
@@ -88,7 +116,7 @@ header{
 
 }
 
-.right_canvas_list{
+.canvas_list{
     text-align: left;
     list-style: none;
     margin-bottom: 2%;
@@ -123,4 +151,11 @@ header{
 .map_img{
     max-width: 90%;
     margin: 0 5%;
+}
+
+.content_country{
+    margin: 2% 5%;
+    font-size: 20px;
+    display: inline-block;
+    float: top ;
 }
