@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ef293690-1cbc-4014-b9e5-efdc792697c1" name="Changes" comment="changed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/culture.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/culture.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +53,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TehnologiiWEB-lab1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -89,7 +86,10 @@
       <workItem from="1644611833044" duration="2909000" />
       <workItem from="1644682966506" duration="4181000" />
       <workItem from="1644687401137" duration="1779000" />
-      <workItem from="1645014231482" duration="12260000" />
+      <workItem from="1645014231482" duration="12752000" />
+      <workItem from="1645083298958" duration="579000" />
+      <workItem from="1645083990299" duration="220000" />
+      <workItem from="1645084469204" duration="542000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1643274847590</created>
@@ -210,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644688591791</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="changed">
+      <created>1645039264591</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1645039264591</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +228,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="github/lab2" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
