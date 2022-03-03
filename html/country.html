@@ -3,21 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <title>EU</title>
-        <link href="../CSS/style.css" rel="stylesheet" type="text/css">
+        <link href="../css/style.css" rel="stylesheet" type="text/css">
         <link rel="shortcut icon" href="../images/Eur.png" type="image/x-icon">
-        <style>
-            table, th, td {
-                border: 1px solid black;
-                border-collapse: collapse;
-                align-content: center;
-                font-size: large;
-                padding: 5px;
-            }
-            td img
-            {
-                max-height: 50px;
-            }
-        </style>
     </head>
     <body>
     <header>
@@ -26,15 +13,15 @@
             European Union
         </a>
         <nav >
-            <a  href="../HTML/map.html" class="nav_link">Map</a>
-            <a  href="../HTML/country.html" class="nav_link">Country</a>
-            <a  href="../HTML/culture.html" class="nav_link">Culture</a>
+            <a href="../html/map.html" class="nav_link">Map</a>
+            <a href="../html/country.html" class="nav_link">Country</a>
+            <a href="../html/culture.html" class="nav_link">Culture</a>
         </nav>
     </header>
-        <div style=" margin: 0 12.5%">
-            <h1>Member states</h1>
-            <hr>
-            <div style="max-width: 75%; margin: 0 12.5%">
+        <div class="back_canvas_country">
+            <div class="content_country">
+                <h1>Member states</h1>
+                <hr>
                 <table >
                     <tr >
                         <th style=" ">State</th>
@@ -43,8 +30,9 @@
                         <th>Population</th>
                         <th>Flag</th>
                     </tr>
+
                     <tr>
-                        <td> Austria</td>
+                        <td><a href="../html/culture.html#Austria" class="tab_link">Austria</a></td>
                         <td>1 January 1995</td>
                         <td>8,932,664</td>
                         <td>83,855 km<sup>2</sup></td>
