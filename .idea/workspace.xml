@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef293690-1cbc-4014-b9e5-efdc792697c1" name="Changes" comment="changed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/country.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/country.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,6 +106,7 @@
       <workItem from="1645649497473" duration="1277000" />
       <workItem from="1645690661179" duration="4243000" />
       <workItem from="1646296808201" duration="895000" />
+      <workItem from="1646323958139" duration="2922000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1643274847590</created>
@@ -239,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646296823187</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="changed">
+      <created>1646324063159</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1646324063159</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
