@@ -169,10 +169,6 @@ header{
     color: #c4c4c4;
 }
 
-.map_img{
-    max-width: 90%;
-    margin: 0 5%;
-}
 
 .content_culture{
     margin: 2% 5%;
@@ -238,3 +234,31 @@ hr{
     margin: 2% 0 ;
 }
 
+.map{
+    position:  relative;
+    margin: 0 4%;
+    justify-content: center;
+}
+
+.map img{
+    width: 100%
+
+}
+
+.map svg{
+    position:  absolute;
+    max-width: 100%;
+}
+
+.map svg path{
+    fill: none;
+    pointer-events: all;
+    cursor: pointer;
+}
+
+.map svg path:hover{
+    fill: red;
+    fill-opacity: 10%;
+    stroke-width: 5px;
+    stroke: darkred;
+}
