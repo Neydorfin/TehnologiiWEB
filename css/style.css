@@ -179,6 +179,7 @@ header{
 
 .content_country{
     margin: 1% 25%;
+    width: 50%;
     font-size: 20px;
     display: inline-block;
 }
@@ -221,6 +222,7 @@ td img
 
 .tab_link{
     display: inline-block;
+    cursor: pointer;
     text-decoration: none;
     margin: 20px ;
     color: #c4c4c4;
@@ -261,4 +263,20 @@ hr{
     fill-opacity: 10%;
     stroke-width: 5px;
     stroke: darkred;
+}
+.imgSearch{
+    margin-left: 20px;
+    width: 0.8em;
+}
+
+#Member_Country_Table th{
+    cursor: pointer;
+}
+
+
+.inputSearch{
+    /*position: absolute;*/
+    height: 1.5em;
+    width: 80%;
+    margin-left: 10%;
 }
