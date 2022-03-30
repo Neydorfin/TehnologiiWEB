@@ -280,3 +280,7 @@ hr{
     width: 80%;
     margin-left: 10%;
 }
+
+.hide{
+    display: none;
+}
