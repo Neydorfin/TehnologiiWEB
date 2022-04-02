@@ -1,0 +1,16 @@
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    const myButton = document.getElementById("upBtn");
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        myButton.style.display = "block";
+    } else {
+        myButton.style.display = "none";
+    }
+}
+
+function scrollBack() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}

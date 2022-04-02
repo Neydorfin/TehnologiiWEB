@@ -1,7 +1,6 @@
 const table = document.querySelector('#Member_Country_Table');
 const tBody = table.querySelector('tbody');
 const rows = Array.from(tBody.querySelectorAll("tr"));
-const string = Array.from(tBody.querySelectorAll('a'));
 const searchElement = table.querySelector('.imgSearch');
 const searchbar =searchElement.parentElement;
 const text = searchbar.innerText;
