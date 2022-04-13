@@ -13,7 +13,7 @@ stats.forEach(stat =>{
         if (e.y > 680) {
             fTitle.style.top =(e.y - 150 + document.documentElement.scrollTop) + 'px';
         }
-        if (e.x > 1000) {
+        if (e.x > 1600) {
             fTitle.style.left =(e.x - 120) + 'px';
         }
         console.log(e.y);

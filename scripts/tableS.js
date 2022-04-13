@@ -30,7 +30,7 @@ function sortTable(index,typeS, asc ,el){
         }
         else
             return elA > elB ? (1*directionSort) : (-1 * directionSort);
-    })
+    });
 
     table.removeChild(tBody);
 
@@ -44,6 +44,18 @@ function sortTable(index,typeS, asc ,el){
     el.classList.toggle("asc", asc);
     el.classList.toggle("desc", !asc);
 
+    table.querySelectorAll('th').forEach(th => th.querySelectorAll('.sorted').forEach(img => img.classList.add("hide_img")));
+
+    if (el.classList.contains("asc") || el.classList.contains("desc")){
+
+        el.querySelector('.sorted').classList.remove("hide_img");
+        if (el.classList.contains("asc")){
+            el.querySelector('.sorted').setAttribute('src', '../css/sort/asc.png');
+        }
+        else{
+            el.querySelector('.sorted').setAttribute('src', '../css/sort/desc.png');
+        }
+    }
 }
 
 function searchState(input){

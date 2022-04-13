@@ -140,7 +140,7 @@ header{
 
 .canvas_list{
     text-align: left;
-    list-style: none;
+    list-style: circle;
     margin-bottom: 2%;
     margin-top: 2%;
     margin-left: 10%;
@@ -178,8 +178,8 @@ header{
 }
 
 .content_country{
-    margin: 1% 25%;
-    width: 50%;
+    margin-left: 18%;
+    width: 64%;
     font-size: 20px;
     display: inline-block;
 }
@@ -196,6 +196,7 @@ th{
     text-align: center;
     font-size: large;
     padding: 10px;
+    margin-left: 10px;
 }
 
 td{
@@ -322,4 +323,13 @@ hr{
 .flags{
     width: 90%;
     margin: 5%;
+}
+
+.sorted{
+    width: 0.8em;
+    display: inline;
+}
+
+.hide_img{
+    display: none;
 }
