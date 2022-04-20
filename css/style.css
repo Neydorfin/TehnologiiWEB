@@ -73,7 +73,7 @@ header{
 }
 
 .left_canvas{
-    max-width: 23%;
+    max-width: 18%;
     float: left;
     margin: 2% 1%;
 }
@@ -84,7 +84,7 @@ header{
 }
 
 .left_canvas_link{
-    font-size: 20px;
+    font-size: 0.8em;
     display: inline-block;
     text-decoration: none;
     color: #c4c4c4;
@@ -97,7 +97,7 @@ header{
 }
 
 .center_canvas{
-    max-width: 48%;
+    max-width: 53%;
     margin: 2% 1%;
 
 }
@@ -292,7 +292,7 @@ hr{
     display: none;
     position: fixed;
     left: 5%;
-    bottom: 20px;
+    bottom: 100px;
     right: 30px;
     z-index: 99;
     border: none;
@@ -306,7 +306,6 @@ hr{
 #upBtn img{
     width: 100%;
 }
-
 
 .flag_title{
     width: 10%;
@@ -332,4 +331,40 @@ hr{
 
 .hide_img{
     display: none;
+}
+
+
+.footer{
+    background-color: #131313;
+    border-top: solid silver 2px;
+    color: #c4c4c4;
+}
+
+.p_footer{
+    text-align: right;
+    margin-right: 2%;
+}
+
+.nav_footer{
+    margin-top: 1%;
+}
+
+.a_footer{
+    font-size: 1em;
+    text-decoration: none;
+    color: #c4c4c4;
+    margin: 1%;
+}
+
+.a_footer:hover{
+    text-decoration-line: underline;
+    color: #ffffff;
+}
+
+iframe{
+    width: 80%;
+    height: 5%;
+    margin-left: 10%;
+    border:0;
+    margin-bottom: 2%;
 }
