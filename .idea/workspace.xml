@@ -5,15 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef293690-1cbc-4014-b9e5-efdc792697c1" name="Changes" comment="push">
-      <change afterPath="$PROJECT_DIR$/php/comments.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/contacts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/subscribe.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lab1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lab1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/country.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/country.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/culture.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/culture.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/map.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/comments.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/contacts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/subscribe.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/subscribe.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/mapFlag.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/mapFlag.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/scrollBack.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/scrollBack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/tableS.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/tableS.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +33,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -100,7 +107,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TehnologiiWEB-lab1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -170,6 +177,8 @@
       <workItem from="1650433571661" duration="2223000" />
       <workItem from="1650440413170" duration="240000" />
       <workItem from="1650464433734" duration="395000" />
+      <workItem from="1652282365134" duration="16347000" />
+      <workItem from="1652305545092" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1643274847590</created>

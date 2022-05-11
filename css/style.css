@@ -174,7 +174,6 @@ header{
     margin: 2% 5%;
     font-size: 20px;
     display: inline-block;
-    float: top ;
 }
 
 .content_country{
@@ -276,7 +275,6 @@ hr{
 
 
 .inputSearch{
-    /*position: absolute;*/
     height: 1.5em;
     width: 80%;
     margin-left: 10%;
@@ -286,7 +284,7 @@ hr{
     display: none;
 }
 
-
+/*Button*/
 #upBtn{
     width: 4%;
     display: none;
@@ -307,6 +305,7 @@ hr{
     width: 100%;
 }
 
+/*Table sort*/
 .flag_title{
     width: 10%;
     position: absolute;
@@ -334,6 +333,8 @@ hr{
 }
 
 
+
+/*Footer*/
 .footer{
     background-color: #131313;
     border-top: solid silver 2px;
@@ -366,5 +367,4 @@ iframe{
     height: 5%;
     margin-left: 10%;
     border:0;
-    margin-bottom: 2%;
 }
