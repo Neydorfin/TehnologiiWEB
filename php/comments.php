@@ -66,21 +66,14 @@ if ($_SERVER['REQUEST_METHOD'] == "POST"){
         </p>
     </div>
     <div class="form">
-        <form class="comment" method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
+        <form class="comment" onsubmit = "return validateComment();" method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" id="commentForm">
             <label class="username">User Name<br>
                 <input type="text" class="username_input" name="username">
             </label><br>
             <label class="message">Message<br>
                 <textarea class="message_input" name="message"></textarea><br>
             </label>
-            <?php
-            if ($_SERVER['REQUEST_METHOD'] == "POST"){
-                $message = formatData($_POST['message']);
-                if (strlen($message) < 1){
-                    echo ' <p class="error">Introduceti comentariu!</p>';
-                }
-            }
-            ?>
+            <p class="error">Introduceti comentariu!</p>
             <input type="submit" class="subBtn" value ="Trimite">
         </form>
     </div>
@@ -111,6 +104,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST"){
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21818128.107613463!2d4.113195771301079!3d48.12285598107331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ed8886cfadda85%3A0x72ef99e6b3fcf079!2z0JXQstGA0L7Qv9Cw!5e0!3m2!1sru!2s!4v1650434562089!5m2!1sru!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </footer>
 <script src="/scripts/scrollBack.js"></script>
+<script src="/scripts/validate.js"></script>
 </body>
 </html>
 

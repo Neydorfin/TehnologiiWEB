@@ -211,7 +211,9 @@ iframe{
 .error{
     color: red;
     font-size: 1em;
+    display: none;
 }
+
 
 .comments{
     padding: 2%;

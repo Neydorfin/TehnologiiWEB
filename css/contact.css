@@ -114,9 +114,10 @@ iframe{
 #upBtn img{
     width: 100%;
 }
-.error{
+.error_fName, .error_sName, .error_email, .error_phone, .error_message{
     color: red;
     font-size: 1em;
+    display: none;
 }
 
 .card {

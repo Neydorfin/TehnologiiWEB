@@ -114,10 +114,12 @@ iframe{
 #upBtn img{
     width: 100%;
 }
-.error{
+.error_user, .error_email{
     color: red;
     font-size: 1em;
+    display: none;
 }
+
 .form{
     width: 60%;
     background-color: #242424;
