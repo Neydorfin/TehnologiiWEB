@@ -36,7 +36,7 @@ function validateSubs(){
 
 function validateContact(){
     const fName = document.querySelector('.fName').value.trim();
-        const sName = document.querySelector('.sName').value.trim();
+    const sName = document.querySelector('.sName').value.trim();
     const phone = document.querySelector('.phone').value.trim();
     const email = document.querySelector('.email').value.trim();
     const message = document.querySelector('.message_input').value.trim();
