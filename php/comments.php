@@ -34,7 +34,7 @@
         </p>
     </div>
     <div class="form">
-        <form class="comment" onsubmit = "return validateComment();" method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" id="commentForm">
+        <form class="comment" onsubmit = "return validateComment();" method="POST" action="commentsForm.php" id="commentForm">
             <label class="username">User Name<br>
                 <input type="text" class="username_input" name="username">
             </label><br>
