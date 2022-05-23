@@ -1,35 +1,3 @@
-<?php
-$username =  "";
-$message = "";
-if ($_SERVER['REQUEST_METHOD'] == "POST"){
-    function formatData($data){
-        $data = trim($data);
-        $data = htmlspecialchars($data);
-        $data = stripcslashes($data);
-        return $data;
-    }
-
-    $username = formatData($_POST['username']);
-    $message = formatData($_POST['message']);
-    if (strlen($message) > 0){
-        if (strlen($username) < 1){
-            $username = 'Anonym';
-        }
-        $file = file_get_contents("json/comments.json");
-        $array_data = json_decode($file);
-        $my_data = array($username, $message);
-        $array_data[] = $my_data;
-        $generate_file = json_encode($array_data, JSON_PRETTY_PRINT);
-        file_put_contents("json/comments.json", $generate_file);
-        echo "
-        <script>
-            window.location.href = 'comments.php';
-        </script>
-        ";
-    }
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -105,6 +73,8 @@ if ($_SERVER['REQUEST_METHOD'] == "POST"){
 </footer>
 <script src="/scripts/scrollBack.js"></script>
 <script src="/scripts/validate.js"></script>
+<script src="/scripts/jquery.js"></script>
+<script src="/scripts/ajax.js"></script>
 </body>
 </html>
 
