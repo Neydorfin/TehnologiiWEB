@@ -34,7 +34,7 @@
         </p>
     </div>
     <div class="form">
-        <form class="comment" onsubmit = "return validateComment();" method="POST" action="commentsForm.php" id="commentForm">
+        <form class="comment" onsubmit = "return validateComment();" method="post" action="commentsForm.php" id="commentForm">
             <label class="username">User Name<br>
                 <input type="text" class="username_input" name="username">
             </label><br>
@@ -43,6 +43,7 @@
             </label>
             <p class="error">Introduceti comentariu!</p>
             <input type="submit" class="subBtn" value ="Trimite">
+            <div class="mess"></div>
         </form>
     </div>
     <div class="comments">
@@ -74,7 +75,7 @@
 <script src="/scripts/scrollBack.js"></script>
 <script src="/scripts/validate.js"></script>
 <script src="/scripts/jquery.js"></script>
-<script src="/scripts/ajax.js"></script>
+<script src="/scripts/sendData.js"></script>
 </body>
 </html>
 

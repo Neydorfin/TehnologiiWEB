@@ -214,3 +214,15 @@ iframe{
     resize: vertical;
 }
 
+.mess{
+    padding: 2%;
+    border: solid black 2px;
+    background-color: #b40202;
+    color: #262626;
+    font-size: 1.5em;
+    width: 50%;
+    margin-left: 22%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    display: none;
+}

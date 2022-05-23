@@ -21,7 +21,7 @@
     </nav>
 </header>
 <div class="back_canvas_php">
-    <form onsubmit="return validateContact();" class="card" method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
+    <form onsubmit="return validateContact();" class="card" method="post" action="contactsForm.php" id="contactForm">
         <h2>Contact Us</h2>
         <div class="row">
             <div class="col">
@@ -63,6 +63,7 @@
             <p class="error_phone">Introduceti telefonul!</p>
             <p class="error_message">Introduceti mesajul!</p>
         </div>
+        <div class="mess"></div>
     </form>
 </div>
 <footer class="footer">
@@ -77,7 +78,7 @@
 <script src="/scripts/scrollBack.js"></script>
 <script src="/scripts/validate.js"></script>
 <script src="/scripts/jquery.js"></script>
-<script src="/scripts/ajax.js"></script>
+<script src="/scripts/sendData.js"></script>
 </body>
 </html>
 

@@ -21,7 +21,7 @@
     </nav>
 </header>
 <div class="back_canvas_php">
-    <form method="POST" onsubmit="return validateSubs();" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" class="form">
+    <form method="post" onsubmit="return validateSubs();" action="subscribeForm.php" class="form" id="subsForm">
         <label class="formElem">UserName<br>
             <input type="text" class="username_input" name="username">
         </label><br>
@@ -75,6 +75,7 @@
             </label>
         </div>
         <input type="submit" class="subBtn" value ="Submit">
+        <div class="mess"></div>
     </form>
 </div>
 <footer class="footer">
@@ -89,7 +90,7 @@
 <script src="/scripts/scrollBack.js"></script>
 <script src="/scripts/validate.js"></script>
 <script src="/scripts/jquery.js"></script>
-<script src="/scripts/ajax.js"></script>
+<script src="/scripts/sendData.js"></script>
 </body>
 </html>
 
